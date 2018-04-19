@@ -1,0 +1,63 @@
+{
+    "func_name": "outside",
+    "funcs": [
+        {
+            "funcs": [
+                {
+                    "funcs": [
+                        {
+                            "funcs": [],
+                            "codes": [
+                                {
+                                    "type": "call_func",
+                                    "arges": [
+                                        "3"
+                                    ],
+                                    "rets": [],
+                                    "call_name": "call_func3",
+                                    "call_full_name": "call_func3"
+                                }
+                            ],
+                            "func_name": "func3"
+                        }
+                    ],
+                    "codes": [
+                        {
+                            "type": "call_func",
+                            "arges": [
+                                "2"
+                            ],
+                            "rets": [],
+                            "call_name": "call_func2",
+                            "call_full_name": "call_func2"
+                        }
+                    ],
+                    "func_name": "func2"
+                }
+            ],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "1"
+                    ],
+                    "rets": [],
+                    "call_name": "call_func1",
+                    "call_full_name": "call_func1"
+                }
+            ],
+            "func_name": "func1"
+        }
+    ],
+    "codes": [
+        {
+            "type": "call_func",
+            "arges": [
+                "0"
+            ],
+            "rets": [],
+            "call_name": "call_func_in_out_side",
+            "call_full_name": "call_func_in_out_side"
+        }
+    ]
+}

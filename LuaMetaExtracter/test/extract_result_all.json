@@ -1,0 +1,137 @@
+{
+    "func_name": "outside",
+    "funcs": [
+        {
+            "funcs": [],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [],
+                    "rets": [
+                        "self.model"
+                    ],
+                    "call_name": "GetInstance",
+                    "call_full_name": "TestModel:GetInstance"
+                },
+                {
+                    "type": "call_func",
+                    "arges": [],
+                    "rets": [],
+                    "call_name": "AddEvents",
+                    "call_full_name": "self:AddEvents"
+                },
+                {
+                    "type": "call_func",
+                    "arges": [],
+                    "rets": [],
+                    "call_name": "RegisterAllProtocal",
+                    "call_full_name": "self:RegisterAllProtocal"
+                }
+            ],
+            "func_name": "Test:__init"
+        },
+        {
+            "funcs": [],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "40100",
+                        "handle40100"
+                    ],
+                    "rets": [],
+                    "call_name": "RegisterProtocal",
+                    "call_full_name": "self:RegisterProtocal"
+                }
+            ],
+            "func_name": "Test:RegisterAllProtocal"
+        },
+        {
+            "funcs": [
+                {
+                    "funcs": [],
+                    "codes": [
+                        {
+                            "type": "call_func",
+                            "arges": [
+                                "40100"
+                            ],
+                            "rets": [],
+                            "call_name": "SendFmtToGame",
+                            "call_full_name": "self:SendFmtToGame"
+                        },
+                        {
+                            "type": "call_func",
+                            "arges": [],
+                            "rets": [],
+                            "call_name": "handle40100",
+                            "call_full_name": "self:handle40100"
+                        }
+                    ],
+                    "func_name": "ON_REQ_INFO"
+                }
+            ],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "TestEvent.REQ_INFO",
+                        "ON_REQ_INFO"
+                    ],
+                    "rets": [],
+                    "call_name": "Bind",
+                    "call_full_name": "self.model:Bind"
+                }
+            ],
+            "func_name": "Test:AddEvents"
+        },
+        {
+            "funcs": [],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "c"
+                    ],
+                    "rets": [
+                        "info.status"
+                    ],
+                    "call_name": "ReadFmt",
+                    "call_full_name": "self:ReadFmt"
+                },
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "i"
+                    ],
+                    "rets": [
+                        "info.time"
+                    ],
+                    "call_name": "ReadFmt",
+                    "call_full_name": "self:ReadFmt"
+                }
+            ],
+            "func_name": "Test:handle40100"
+        }
+    ],
+    "codes": [
+        {
+            "type": "call_func",
+            "arges": [
+                "game.guild.play.GuildPlayModel"
+            ],
+            "rets": [],
+            "call_name": "require",
+            "call_full_name": "require"
+        },
+        {
+            "type": "call_func",
+            "arges": [
+                "BaseTest"
+            ],
+            "rets": [],
+            "call_name": "BaseClass",
+            "call_full_name": "BaseClass"
+        }
+    ]
+}

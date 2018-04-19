@@ -1,0 +1,25 @@
+{
+    "func_name": "outside",
+    "funcs": [
+        {
+            "funcs": [],
+            "codes": [
+                {
+                    "type": "call_func",
+                    "arges": [
+                        "arge_str",
+                        "test.arge"
+                    ],
+                    "rets": [
+                        "result",
+                        "val"
+                    ],
+                    "call_name": "call_func1",
+                    "call_full_name": "self:call_func1"
+                }
+            ],
+            "func_name": "test:func"
+        }
+    ],
+    "codes": []
+}
