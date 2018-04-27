@@ -928,7 +928,8 @@ static void primaryexp (LexState *ls, expdesc *v) {
 		parse_call_func(ls, v);
         break;
       }
-      case '(': case TK_STRING: case '{': {  /* funcargs */
+	  //case TK_STRING: case '{'://TODO:暂不支持func "arge" 和 func {}的函数调用方式，有空再写吧
+      case '(': {  /* funcargs */
 		  luaK_exp2nextreg(fs, v);
 		  parse_call_func(ls, v);
         break;
